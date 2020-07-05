@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+    #intro-row{
+        padding: 50px 20px;
+    }
+    .banner-blob{
+        left:-80px;
+        top: 0px;
+    }
+    #banner-blob{
+        transform: rotate(45deg);
+        transform-origin: 50% 50%;
+    }
+}
