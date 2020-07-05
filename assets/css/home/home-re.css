@@ -5,9 +5,10 @@
     .banner-blob{
         left:-80px;
         top: 0px;
-    }
-    #banner-blob{
         transform: rotate(45deg);
         transform-origin: 50% 50%;
+    }
+    #banner-blob{
+        
     }
 }
