@@ -3,6 +3,9 @@
     font-weight: 300;
 }
 
+.row{
+    margin:0;
+}
 #nav-icon{
     width:200px;
 }
