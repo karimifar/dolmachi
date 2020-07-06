@@ -2,4 +2,7 @@
     header{
         padding: 0 20px;
     }
+    .row{
+        padding: 40px 20px;
+    }
 }
