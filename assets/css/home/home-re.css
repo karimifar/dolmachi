@@ -1,3 +1,11 @@
+@media only screen and (min-width: 1400px) {
+    #intro-row img{
+        max-width: 47%;
+        height: auto;
+        margin-top: -6%;
+    }
+
+}
 @media only screen and (max-width: 768px) {
     #intro-row{
         padding: 50px 20px;

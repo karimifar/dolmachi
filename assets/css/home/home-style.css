@@ -21,6 +21,7 @@
 }
 
 #intro-row img{
+    transition: all 0.2s ease-in-out;
     max-width: 470px;
     margin: -30px -2% ;
     width: 100%;
