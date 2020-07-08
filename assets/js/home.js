@@ -17,3 +17,11 @@ for (var i = 0; i < acc.length; i++) {
     
   });
 }
+
+$('.carousel').flickity({
+  // options
+  cellAlign: 'center',
+  contain: true,
+  autoPlay: true,
+  wrapAround: true
+});

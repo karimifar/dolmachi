@@ -16,6 +16,9 @@
         transform: rotate(45deg);
         transform-origin: 50% 50%;
     }
+    .gallery-row{
+        padding: 50px 0 ;
+    }
     #banner-blob{
         
     }
