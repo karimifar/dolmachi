@@ -16,6 +16,9 @@
         transform: rotate(45deg);
         transform-origin: 50% 50%;
     }
+    .vid-wrap, .vid-wrap iframe{
+        height: 250px;
+    }
     .gallery-row{
         padding: 50px 0 ;
     }
