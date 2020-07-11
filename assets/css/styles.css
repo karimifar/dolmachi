@@ -59,6 +59,7 @@ footer {
     width: 100%;
     background-color: #385542;
     position: relative;
+    overflow: hidden;
 }
 
 #footer-mask{

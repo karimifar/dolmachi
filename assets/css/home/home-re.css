@@ -31,7 +31,7 @@
     
     #intro-row h1{
         font-size: 48px;
-        width: 300px;
+        max-width: 300px;
         margin-top: 5vh;
     }
     #intro-row img{
