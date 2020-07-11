@@ -34,3 +34,75 @@ header a{
     padding-left:1rem;
     padding-right:1rem;
 }
+
+body, html{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    background-color: #385542;
+    position: relative;
+}
+
+#footer-mask{
+    position: absolute;
+    top: -3px;
+}
+
+.footer-row{
+    color:#fff;
+    padding-bottom: 0;
+}
+
+.submit-col form{
+    text-align: center;
+}
+.submit-col form input{
+    width:65%;
+    min-width: 250px;
+    margin:10px 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+.submit-col form button{
+    width:30%;
+    margin-left:5px;
+    padding:10px;
+    border-radius: 20px;
+    background-color: #ffb700cb;
+    border: 1px solid #ffb700;
+    color: #fff;
+    transition: 0.2s all ease-in-out;
+}
+.submit-col form button:hover{
+
+    background-color: #ffb700;
+
+}
+.contact-col p{
+    font-size: 24px;
+    text-align: right;
+}
+.contact-col p a{
+    color: #fff;
+    margin: 3px;
+}
+.contact-col p a:hover{
+    color: #ffb700;
+}
+p.copyright{
+    text-align:center;
+    width:100%;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    font-size: 12px;
+}
