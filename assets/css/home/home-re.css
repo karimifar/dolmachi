@@ -19,7 +19,20 @@
     .gallery-row{
         padding: 50px 0 ;
     }
-    #banner-blob{
-        
+    .carousel-cell{
+        height: 350px;
     }
+    .spec-wrap{
+        padding-top:20px;
+    }
+    
+    #intro-row h1{
+        font-size: 48px;
+        width: 300px;
+        margin-top: 5vh;
+    }
+    #intro-row img{
+        /* margin: 2vh -2% ; */
+    }
+    
 }

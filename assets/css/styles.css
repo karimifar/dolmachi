@@ -10,7 +10,15 @@ a:hover{
 }
 .row{
     margin:0;
-    padding: 100px 15%;
+    padding: 100px 10%;
+}
+button:focus{
+    outline: none;
+}
+.navbar-toggler-icon{
+    color: #385542;
+    height: auto;
+
 }
 #nav-icon{
     width:200px;
@@ -61,10 +69,18 @@ footer {
 .footer-row{
     color:#fff;
     padding-bottom: 0;
+    padding-top: 120px
 }
 
+a.nav-link{
+    text-align: right;
+    padding: 2px;
+}
 .submit-col form{
-    text-align: center;
+}
+.submit-col p{
+    margin-bottom: 0;
+    font-size: 18px;
 }
 .submit-col form input{
     width:65%;
@@ -72,6 +88,8 @@ footer {
     margin:10px 0;
     padding: 10px;
     border-radius: 20px;
+    border: 1px solid #ffb700;
+
 }
 .submit-col form button{
     width:30%;

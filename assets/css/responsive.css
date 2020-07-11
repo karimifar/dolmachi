@@ -6,4 +6,15 @@
     .row{
         padding: 40px 20px;
     }
+    .contact-col p{
+        font-size: 24px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .footer-row{
+        padding: 60px 10px 0;
+    }
+    p.copyright{
+        margin-top:20px;
+    }
 }
