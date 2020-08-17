@@ -1,5 +1,5 @@
-.shop-content{
-    padding: 50px 15% 0;
+.padded-row{
+    padding-bottom: 0;
 }
 .prod-image img{
     width: 100%;
