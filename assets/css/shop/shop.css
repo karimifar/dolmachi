@@ -1,0 +1,24 @@
+.shop-content{
+    padding: 50px 15% 0;
+}
+.prod-image img{
+    width: 100%;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 0.9em;
+    color:#aaa;
+    font-family: 'degular-display', sans-serif;
+    margin-bottom: 20px;
+}
+.purchase-info{
+    text-align: center;
+    font-size: 24px;
+}
+.purchase-info h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}

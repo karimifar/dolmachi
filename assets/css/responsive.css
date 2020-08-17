@@ -3,7 +3,7 @@
     header{
         padding: 0 20px;
     }
-    .row{
+    .padded-row{
         padding: 40px 20px;
     }
     .contact-col p{
@@ -16,6 +16,9 @@
     }
     p.copyright{
         margin-top:20px;
+    }
+    h1{
+        font-size: 48px;
     }
     
 }
