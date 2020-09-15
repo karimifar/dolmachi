@@ -27,6 +27,9 @@
     <!-- adobe fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/eak6jha.css">
 
+    <!-- mailchimp -->
+    <!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
+
     <!-- mys stylesheets -->
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/home/home-style.css">
@@ -124,7 +127,7 @@
                                 <h2>Ergonomic Handle Design</h2>
                             </div>
                             <div class="panel">
-                            <p>Dolmachi Press comes with a soft, round-shaped, and good-grip handlethat fits comfortably in the palm of your hand; making the pressing comfortable and painless.</p>
+                            <p>Dolmachi Press comes with a soft, round-shaped, and good-grip handle that fits comfortably in the palm of your hand; making the pressing comfortable and painless.</p>
                             </div>
                         </div>
 
@@ -182,11 +185,21 @@
             
         <div class="padded-row row footer-row">
             <div class="col-md-9 submit-col">
-                <p>Be the first to learn about the sales & new products</p>
-                <form>
-                    <input placeholder="example@email.com" type="email" id="form-email">
-                    <button>SUBMIT</button>
+                <!-- Begin Mailchimp Signup Form -->
+
+                <div id="mc_embed_signup">
+                <form action="https://gmail.us17.list-manage.com/subscribe/post?u=fe52abc482ab267c46f080df4&amp;id=ddf3104ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Be the first to learn about the sales &amp; new products</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fe52abc482ab267c46f080df4_ddf3104ded" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
                 </form>
+                </div>
+
+                <!--End mc_embed_signup-->
             </div>
             <div class="col-md-3 contact-col">
                 <p>
@@ -205,5 +218,7 @@
     <!-- flickity -->
     <script src="./assets/js/flickity.pkgd.min.js"></script>
     <script src="./assets/js/home.js"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
 </body>
 </html>

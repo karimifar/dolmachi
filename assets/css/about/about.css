@@ -1,0 +1,11 @@
+.btnContact{
+    padding:10px 20px;
+    border-radius: 20px;
+    background-color: #ffb700cb;
+    border: 1px solid #ffb700;
+    color: #fff;
+    transition: 0.2s all ease-in-out;
+}
+.btnContact:hover{
+    background-color: #ffb700; 
+}

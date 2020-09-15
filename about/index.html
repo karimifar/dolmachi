@@ -27,6 +27,9 @@
     <!-- adobe fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/eak6jha.css">
 
+    <!-- mailchimp -->
+    <!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
+
     <!-- mys stylesheets -->
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/css/about/about.css">
@@ -94,30 +97,35 @@
                 </h2>
 
                 <div class="contact-form">
-                    <form>
+                    <form action="https://formspree.io/xrgynpvq" method="POST">
                     <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                                    <input type="text" name="txtName" class="form-control" placeholder="Your Name" value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number" value="" />
                                 </div>
                                 
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="form-group">
-                                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                                    <input type="submit" name="btnSubmit" class="btnContact" value="Send" />
                                 </div>
                             </div>
+                            <input
+                                type="hidden"
+                                name="_subject"
+                                value="New submission from Dolmachi"
+                            />
                             
                         </div>
                     </form>
@@ -132,11 +140,20 @@
             
         <div class="row padded-row footer-row">
             <div class="col-md-9 submit-col">
-                <p>Be the first to learn about the sales & new products</p>
-                <form>
-                    <input placeholder="example@email.com" type="email" id="form-email">
-                    <button>SUBMIT</button>
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                <form action="https://gmail.us17.list-manage.com/subscribe/post?u=fe52abc482ab267c46f080df4&amp;id=ddf3104ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Be the first to learn about the sales &amp; new products</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fe52abc482ab267c46f080df4_ddf3104ded" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
                 </form>
+                </div>
+
+                <!--End mc_embed_signup-->
             </div>
             <div class="col-md-3 contact-col">
                 <p>
